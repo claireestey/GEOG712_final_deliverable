@@ -1,9 +1,22 @@
 ---
 title: "The Collection and Analysis of Zooplankton"
 author: "Claire Estey"
-date: "2024-12-04"
-output: github_document
+date: "`r Sys.Date()`"
+output: html_document
+bibliography: "bib_file.bib"
 ---
+
+put this in a folder titled final or something and have it render as an html file, leave README as .Rmd
+
+try to change date to system date in yaml header 
+can also change html style (tufte?)
+due?
+integrate equations 
+bibliography
+needs to be reproducible - just share with Dr. Paez (not a collaborator)
+
+practice ref: [@arnold2023quat]
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -28,3 +41,5 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## References
