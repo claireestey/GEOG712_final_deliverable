@@ -3,7 +3,8 @@ title: "The Collection and Analysis of Zooplankton"
 author: "Claire Estey"
 date: "`r Sys.Date()`"
 output: html_document
-bibliography: "bib_file.bib"
+bibliography: bib/bib_file.bib
+csl: csl/apa.csl
 ---
 
 ### Notes (not to be included)
@@ -16,6 +17,8 @@ due?
 integrate equations 
 bibliography
 needs to be reproducible - just share with Dr. Paez (not a collaborator)
+add code chunk titles
+figure captions
 
 practice ref: [@arnold2023quat]
 
